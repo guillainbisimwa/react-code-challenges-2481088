@@ -1,12 +1,13 @@
-import './App.css'
-import ColorRenderer from './01-color-renderer/ColorRenderer'
+import "./App.css";
+import ColorRenderer from "./01-color-renderer/ColorRenderer";
 
-function App () {
+function App() {
   return (
-    <div className='App'>
+    <div className="App">
+      <h2>Learn React</h2>
       <ColorRenderer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
