@@ -19,6 +19,7 @@ const colors = [
   },
 ];
 
+
 export default function ColorRenderer() {
   return colors.map((val, key) => (
     <Color key={key} hex={val.hex} name={val.name} />
